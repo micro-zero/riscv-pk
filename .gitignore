@@ -5,7 +5,9 @@
 # generated autom4te.cache directory. This makes it easy to do a clean
 # build under the source directory and still have it appear clean to git.
 
-build/
-autom4te.cache/
+build/*
+!build/Makefile
+!build/pk
+!build/pk.S
 *.swp
 *~
